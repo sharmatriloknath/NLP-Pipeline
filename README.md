@@ -41,6 +41,7 @@ In this step, we use multiple techniques to convert text to numerical vectors.
         4. Tf-Idf
         5. Word2vec
         
+        [Text Extraction In Detail](https://github.com/sharmatriloknath/NLP-Pipeline/blob/main/TextExtraction.md)
 ## 4. Modelling/Model Building
 In the modeling step, we try to make a model based on data. here also we can use multiple approaches to build the model based on the problem statement.
 

@@ -149,37 +149,38 @@ examples
 4. Word count.
 5. Character count.
 
-6. Word2vec 
-Word Embeddings
-
+## 6. Word2vec 
+**Word Embeddings**
 Wikipedia says “In natural language processing, word embedding is a term used for the representation of words for text analysis, typically in the form of a real-valued vector that encodes the meaning of the word such that the words that are closer in the vector space are expected to be similar in meaning.”
 
 let’s consider one example boy-man vs boy-table, Can you tell which of the pair has more similar words to each other?
 
 For a human, it’s easy to understand the associations between words in a language. We know that boy and man have more similar meanings than boy and table but what if we want machines to understand this kind of relation automatically in our languages as well? That is what word embeddings come into the picture.
 
-Types of Word Embedding
-1. Frequency-based – Count frequency of word
+**Types of Word Embedding**
+*1. Frequency-based – Count frequency of word*
 
-BOW
-Tf-idf
-Glove(based on Matric Factorization)
-2. Prediction based
+  BOW
+  Tf-idf
+  Glove(based on Matric Factorization)
 
-Word2Vec
-What is Word2Vec?
+*2. Prediction based*
+  Word2Vec
+  
+**What is Word2Vec?**
 Word2Vec is somewhat different than other techniques which we discussed earlier because it is a Deep learning-based technique.
 
 Word2Vec is a word embedding technique, that converts a given word into a vector as a collection of numbers.
 
-As we have other techniques then why do we need word2vec?
+**As we have other techniques then why do we need word2vec?**
 
 Word2vec capture semantic meaning like happiness and joy have the same meaning.
 Word2vec create low dimension vector(each word is a collection of a range of 200 to 300.
 Word2vec creates a Dense vector(non-zeros)
-How to Use It?
+
+**How to Use It?**
 We have two approaches to use Word2Vec
 1. Use a pre-trained model
 2. Self-Trained model
 
-Word2Vec
+![word2vec](https://editor.analyticsvidhya.com/uploads/90450word2vec.png)

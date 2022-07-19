@@ -23,10 +23,13 @@ In the data acquisition step, these three possible situations happen.
 
 ## 2. Text Preprocessing
 So Our data collection step is done but we can not use this data for model building. we have to do text preprocessing.
-*Steps –*
+
+** Steps –**
 1. Text Cleaning – In-text cleaning we do HTML tag removing, emoji handling, Spelling checker, etc.
 2. Basic Preprocessing — In basic preprocessing we do tokenization(word or sent tokenization, stop word removal, removing digit, lower casing.
 3. Advance Preprocessing — In this step we do POS tagging, Parsing, and Coreference resolution.
+
+[Text Preprocessing In Detail](https://github.com/sharmatriloknath/NLP-Pipeline/blob/main/TextPreprocessing.md)
 
 ## 3. Featured Engineering
 Feature Engineering means converting text data to numerical data. but why it is required to convert text data to numerical data?. because our machine learning model doesn’t understand text data then we have to do feature engineering. This step is also called Feature extraction from text. I have already written a complete guide on Feature extraction techniques used in NLP. Click here.

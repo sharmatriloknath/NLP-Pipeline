@@ -76,3 +76,6 @@ Three stages of deployment –
 1. Deployment – model deploying on the cloud for users.
 2. Monitoring – In the monitoring phase, we have to watch the model continuously. Here we have to create a dashboard to show evaluation metrics.
 3. Update- Retrain the model on new data and again deploy.
+
+# References
+https://www.analyticsvidhya.com/blog/2022/06/an-end-to-end-guide-on-nlp-pipeline/
